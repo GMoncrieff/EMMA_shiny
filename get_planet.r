@@ -89,7 +89,7 @@ get_planet <- function(bbox,date_in){
     #r body 
     url <- 'https://api.planet.com/data/v1/quick-search'
     body <- body_json
-    api_key = "27d323a68bd24f97852dfd0416128a35"
+    api_key = "myapikey"
     
     
     r <- POST(url, body = body, content_type_json(), authenticate(api_key, ""))
